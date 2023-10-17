@@ -25,12 +25,11 @@
 }
 
 .about .prompt {
-    width: 40%;
     font-size: 30px;
 }
 
 .prompt svg {
-    font-size: 60px;
+    font-size: 50px;
     margin: 5px;
     color: white;
 }
@@ -58,7 +57,7 @@
     font-size: 20px;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
     .about h2 {
         font-size: 40px;
     }
@@ -79,5 +78,11 @@
 
     .skills h2 {
         font-size: 30px;
+    }
+
+    .prompt svg {
+        font-size: 30px;
+        margin: 5px;
+        color: white;
     }
 }
