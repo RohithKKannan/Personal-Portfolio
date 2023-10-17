@@ -16,12 +16,10 @@ function Navbar() {
             <div className='toggleButton'>
                 <button onClick={() => { setExpandNavbar((prev) => !prev) }}> <ReorderIcon /> </button>
             </div>
-            <div>
-                <div className='Links'>
-                    <Link to="/"> Home </Link>
-                    <Link to="/projects"> Projects </Link>
-                    <Link to="/experience"> Experience </Link>
-                </div>
+            <div className='links'>
+                <Link to="/"> Home </Link>
+                <Link to="/projects"> Projects </Link>
+                <Link to="/experience"> Experience </Link>
             </div>
         </div>
     )
