@@ -11,10 +11,13 @@ function Home() {
                 <h2>Hi, My Name is Rohith</h2>
                 <div className='prompt'>
                     <p>I am a Game Developer</p>
+
+                    <div className='icons'>
+                        <LinkedInIcon />
+                        <EmailIcon />
+                        <GithubIcon />
+                    </div>
                 </div>
-                <LinkedInIcon />
-                <EmailIcon />
-                <GithubIcon />
             </div>
             <div className='skills'>
                 <ol className='list'>
@@ -32,7 +35,7 @@ function Home() {
                     </li>
                 </ol>
             </div>
-        </div>
+        </div >
     )
 }
 
